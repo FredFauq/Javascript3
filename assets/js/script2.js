@@ -1,12 +1,10 @@
+//déclaration de variable
+var text = document.getElementById('text');
 //déclaration de la fonction affichage
-function view(){
-  //déclaration de variable 'x'
-  var x = document.getElementById('text');
-  //vérification affichage de la variable x et effacement
-  if (x.style.display === 'block') {
-        x.style.display = 'none';
-    // sinon affichage la variable x de l'affichage
-    } else {
-        x.style.display = 'block';
-    }
+function show(){
+  text.style.display = 'block';
+}
+//déclaration de la fontion cacher
+function hide(){
+  text.style.display = 'none';
 }
