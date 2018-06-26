@@ -1,10 +1,14 @@
 //Déclaration de la fonction dessiner un cadre
-function dessine_cadre(id){
+function addBorder(){
+  //déclaration de variable
+  var = document.getElementById('image1')
   //définition de la bordure du cadre à 1px solide
-  id.style.border = '#00F 1px solid'
+  document.getElementById('image1').style.border = '3px red'
 }
 //Déclaration de la fonction retirer le cadre
-function efface_cadre(id){
+function removeBorder(){
+  //deéclaration de variable
+  var = document.getElementById('image1')
   //définition de la bordure du cadre à 0px
-  id.style.border = '0'
+  document.getElementById('image1').style.border = '0'
 }
